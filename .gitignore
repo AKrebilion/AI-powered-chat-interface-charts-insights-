@@ -1,0 +1,6 @@
+__pycache__/ 
+*.pyc 
+.env 
+db/northwind.db 
+*.sqlite3 
+node_modules/ 
