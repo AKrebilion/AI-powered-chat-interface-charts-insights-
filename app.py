@@ -7,7 +7,7 @@ import re
 from schemas import products_schema, orders_schema, order_details_schema, suppliers_schema, shippers_schema, regions_schema, employees_schema, employee_territories_schema
 
 # Configure Gemini API key
-genai.configure(api_key="AIzaSyC8c46LdP6WramexJpJoE-jXe_CxCuDVDc")
+genai.configure(api_key="YOUR_API_KEY")
 
 # Initialize Gemini model (use Gemini 1.5 Flash)
 model = genai.GenerativeModel("gemini-2.5-pro")
